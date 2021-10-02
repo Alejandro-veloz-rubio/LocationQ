@@ -1,0 +1,14 @@
+Una funcion callback es cuando una funcion "x" recibe 
+como parametro a otra funcion "y" y esta funcion "y"
+se ejecutara dentro de la funcion "x".
+
+Una promesa nos permite prometernos, que cuando un resultado este listo, 
+ya sea que se pidio a un servidor o base de datos se ejecutara el codigo 
+que deseamos, permitiendonos que mientras se obtiene respuesta de 
+un servidor se ejecutan otras lineas de codigo y cuando lo tiene listo 
+regresa a la promesa para ejecutarlo lo debido una ves hecho esto retoma la 
+ejecucion en donde la dejo
+
+Tanto en las funciones callback como en las "promesas"  
+se pueden hacer procesos asincronos la unica diferencia 
+es que las "promesas" lo facilitan mas esta tarea.
