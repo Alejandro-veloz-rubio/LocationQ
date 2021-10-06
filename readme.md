@@ -4,25 +4,6 @@ Se consume servicios de terceros utilizando una interfaz html donde recibe los d
 
 El html recibira los datos necesarios atraves de inputs, se creo un button en cual iniciara el proceso de ejecucion en el archivo js. y un div para poner lo que son los resultados finales.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<h1>Coordenadas</h1>
-Latitud: <input type="number" id="latitud"><br><br>
-Longitud: <input type="number" id="longitud">
-<button type="button" id="btnbuscar">Buscar</button><br><br>
-<div id="resultados"></div><br>
-<div id="resclima"></div>
-<script src="app/app.js"></script>
-</body>
-</html>
-
 El html antes mencionado tiene un script que se enlaza a un archivo .js este archivo js lo que hara es consumir los servicios de locationq con el metodo fetch y promesas (.then),aclarando que antes se deben crear unas variables que se enlacen con los valores de lat y lon ademas de añadirlas al url para que asi busque el que deseamos,
 
 let lat=document.getElementById('latitud').value;
