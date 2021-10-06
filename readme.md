@@ -2,7 +2,7 @@ Descripcion de la actividad
 
 Se consume servicios de terceros utilizando una interfaz html donde recibe los datos de latitud y longitud del lugar a encontrar y presionando un boton se da el display name del lugar para que despues se de tambien el clima de dicho lugar.
 
-El html recibira los datos necesarios atraves de inputs, se creo un button en cual iniciara el proceso de ejecucion en el archivo js. y un div para poner lo que son los resultados finales.
+El html recibira los datos necesarios atraves de inputs, se creo un button en cual iniciara el proceso de ejecucion en el archivo js. y un div para poner el display_name y otro div para el clima de la ciudad.
 
 El html antes mencionado tiene un script que se enlaza a un archivo .js este archivo js lo que hara es consumir los servicios de locationq con el metodo fetch y promesas (.then),aclarando que antes se deben crear unas variables que se enlacen con los valores de lat y lon ademas de añadirlas al url para que asi busque el que deseamos,
 
